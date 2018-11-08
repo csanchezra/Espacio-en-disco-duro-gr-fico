@@ -1,3 +1,8 @@
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`mibase` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+
+USE `mibase`;
+
 /*Table structure for table `raiz` */
 
 DROP TABLE IF EXISTS `raiz`;
