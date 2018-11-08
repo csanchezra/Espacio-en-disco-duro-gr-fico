@@ -3,7 +3,7 @@
 exec('php /var/www/html/carpeta_de_proyecto/disco.php');
 
 // MySQL database connection code
-$connection = mysqli_connect("localhost","usuariomysql","contrasena","reporte_nick") or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect("localhost","usuariomysql","contrasena","mibase") or die("Error " . mysqli_error($connection));
 
 
 $sql = "SELECT * FROM raiz";
